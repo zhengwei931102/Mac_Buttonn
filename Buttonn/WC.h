@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  WC.h
 //  Buttonn
 //
 //  Created by admin on 17/2/7.
@@ -7,10 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "WC.h"
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-@property (nonatomic,retain) WC *wc;
-
+#import "MYButton.h"
+@interface WC : NSWindowController
+@property (weak) IBOutlet MYButton *btn;
 
 @end
-

@@ -13,6 +13,12 @@
 		84F296381E49A13D00CC4881 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F296361E49A13D00CC4881 /* MainMenu.xib */; };
 		84F296431E49A13D00CC4881 /* ButtonnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F296421E49A13D00CC4881 /* ButtonnTests.m */; };
 		84F2964E1E49A13D00CC4881 /* ButtonnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F2964D1E49A13D00CC4881 /* ButtonnUITests.m */; };
+		84F2965D1E49A19300CC4881 /* MYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F2965C1E49A19300CC4881 /* MYButton.m */; };
+		84F296611E49A25F00CC4881 /* WC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F2965F1E49A25F00CC4881 /* WC.m */; };
+		84F296621E49A25F00CC4881 /* WC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F296601E49A25F00CC4881 /* WC.xib */; };
+		84F296651E49A3D700CC4881 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F296631E49A3D700CC4881 /* 1.png */; };
+		84F296661E49A3D700CC4881 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F296641E49A3D700CC4881 /* 2.png */; };
+		84F296681E49A44B00CC4881 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F296671E49A44B00CC4881 /* 3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,14 @@
 		84F296491E49A13D00CC4881 /* ButtonnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F2964D1E49A13D00CC4881 /* ButtonnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonnUITests.m; sourceTree = "<group>"; };
 		84F2964F1E49A13D00CC4881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F2965B1E49A19300CC4881 /* MYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYButton.h; sourceTree = "<group>"; };
+		84F2965C1E49A19300CC4881 /* MYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYButton.m; sourceTree = "<group>"; };
+		84F2965E1E49A25F00CC4881 /* WC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC.h; sourceTree = "<group>"; };
+		84F2965F1E49A25F00CC4881 /* WC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC.m; sourceTree = "<group>"; };
+		84F296601E49A25F00CC4881 /* WC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC.xib; sourceTree = "<group>"; };
+		84F296631E49A3D700CC4881 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = Buttonn/1.png; sourceTree = "<group>"; };
+		84F296641E49A3D700CC4881 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = Buttonn/2.png; sourceTree = "<group>"; };
+		84F296671E49A44B00CC4881 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = Buttonn/3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +90,9 @@
 		84F296221E49A13D00CC4881 = {
 			isa = PBXGroup;
 			children = (
+				84F296631E49A3D700CC4881 /* 1.png */,
+				84F296641E49A3D700CC4881 /* 2.png */,
+				84F296671E49A44B00CC4881 /* 3.png */,
 				84F2962D1E49A13D00CC4881 /* Buttonn */,
 				84F296411E49A13D00CC4881 /* ButtonnTests */,
 				84F2964C1E49A13D00CC4881 /* ButtonnUITests */,
@@ -96,12 +113,17 @@
 		84F2962D1E49A13D00CC4881 /* Buttonn */ = {
 			isa = PBXGroup;
 			children = (
+				84F2965B1E49A19300CC4881 /* MYButton.h */,
+				84F2965C1E49A19300CC4881 /* MYButton.m */,
 				84F2962E1E49A13D00CC4881 /* AppDelegate.h */,
 				84F2962F1E49A13D00CC4881 /* AppDelegate.m */,
 				84F296341E49A13D00CC4881 /* Assets.xcassets */,
 				84F296361E49A13D00CC4881 /* MainMenu.xib */,
 				84F296391E49A13D00CC4881 /* Info.plist */,
 				84F296311E49A13D00CC4881 /* Supporting Files */,
+				84F2965E1E49A25F00CC4881 /* WC.h */,
+				84F2965F1E49A25F00CC4881 /* WC.m */,
+				84F296601E49A25F00CC4881 /* WC.xib */,
 			);
 			path = Buttonn;
 			sourceTree = "<group>";
@@ -236,6 +258,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F296351E49A13D00CC4881 /* Assets.xcassets in Resources */,
+				84F296651E49A3D700CC4881 /* 1.png in Resources */,
+				84F296661E49A3D700CC4881 /* 2.png in Resources */,
+				84F296681E49A44B00CC4881 /* 3.png in Resources */,
+				84F296621E49A25F00CC4881 /* WC.xib in Resources */,
 				84F296381E49A13D00CC4881 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F296331E49A13D00CC4881 /* main.m in Sources */,
+				84F296611E49A25F00CC4881 /* WC.m in Sources */,
 				84F296301E49A13D00CC4881 /* AppDelegate.m in Sources */,
+				84F2965D1E49A19300CC4881 /* MYButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
